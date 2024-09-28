@@ -1,0 +1,46 @@
+* {
+
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+
+body::-webkit-scrollbar {
+
+  display: none
+}
+
+
+.carousel-item img {
+  height: 95vh;
+  /* Ensures image covers full height */
+}
+
+
+/* @media (max-width: 768px) {
+  .carousel-item {
+    height: 100vh;
+    
+  }
+
+  .carousel-item img {
+    height: 100vh;
+    
+  }
+} */
+
+
+/* Footer */
+.footer{
+  background-color: #f7f7f7; /* Light background */
+  border-top: 1px solid rgb(200, 200, 200);
+  color: #4b4b4b;
+}
