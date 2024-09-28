@@ -1,5 +1,6 @@
 import React from 'react'
 import HomeSlider from '../Components/HomeSlider'
+import About from '../Components/About'
 
 function Landing() {
 
@@ -16,6 +17,13 @@ function Landing() {
         <div>
 
           <HomeSlider />
+
+        </div>
+
+        
+        <div>
+
+          <About />
 
         </div>
 

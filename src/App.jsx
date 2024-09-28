@@ -8,6 +8,7 @@ const Footer = lazy(() => import('./Components/Footer'))
 function App() {
 
 
+
   return (
 
 
@@ -16,8 +17,11 @@ function App() {
 
       <Suspense>
 
-        <Header />
+        <div className="position-sticky sticky-top z-5 w-100 header-shadow">
 
+          <Header />
+
+        </div>
 
       </Suspense>
 

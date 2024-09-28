@@ -12,6 +12,12 @@ html {
 
 }
 
+body {
+
+  background-color: #f7f7f7 !important;
+
+}
+
 
 body::-webkit-scrollbar {
 
@@ -21,26 +27,64 @@ body::-webkit-scrollbar {
 
 .carousel-item img {
   height: 95vh;
-  /* Ensures image covers full height */
+
 }
 
 
-/* @media (max-width: 768px) {
-  .carousel-item {
-    height: 100vh;
-    
-  }
+/* Header Color change */
+.header-default {
+  background-color: transparent;
+  /* Original color */
+  transition: background ease-in-out 0.3s;
+  /* Smooth transition */
+}
 
-  .carousel-item img {
-    height: 100vh;
-    
-  }
-} */
+.header-scrolled {
+  background-color: blue;
+  /* Change to your desired color */
+  transition: background ease-in-out 0.3s;
+  /* Smooth transition */
+}
+
+
 
 
 /* Footer */
-.footer{
-  background-color: #f7f7f7; /* Light background */
+.footer {
+  background-color: #f7f7f7;
+  /* Light background */
   border-top: 1px solid rgb(200, 200, 200);
   color: #4b4b4b;
+}
+
+.policy-border {
+
+  border-top: 1px solid rgb(200, 200, 200);
+
+
+}
+
+.foot-social {
+
+  text-decoration: none;
+  color: #2a2a22;
+  font-size: x-large;
+  margin-right: 0.8rem;
+
+}
+
+.foot-link {
+
+  text-decoration: none;
+  color: #000;
+  font-weight: 400 !important;
+
+
+}
+
+.foot-link:hover {
+
+  color: #1d4694;
+
+
 }

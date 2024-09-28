@@ -14,8 +14,9 @@ function Header() {
 
     // Toggle the search input visibility
     const handleSearchClick = () => {
-        setShowSearchInput(!showSearchInput);
-    };
+
+        setShowSearchInput(!showSearchInput)
+    }
 
 
     // State for managing hovered category
